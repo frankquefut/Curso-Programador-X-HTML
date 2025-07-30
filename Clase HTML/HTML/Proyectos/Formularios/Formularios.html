@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+
+<body>
+
+    <h1>Formularios en HTML</h1>
+
+    <form action="/action.php" method="post">
+     <h2>Datos Personales</h2>
+     <label for="name">Nombre:</label>
+     <input id="name" type="text" name="nombre" required>
+     <br />
+
+     <label for="email">Correo electronico</label>
+     <input id="email" type="email" name="email" required>
+     <br>
+
+     <label for="Telefono">Telefono</label>
+     <input id="telefono" type="tel" name="telefono">
+
+     <h2>Genero</h2>
+     <input id="Masculino" name="genero" type="radio">   
+     <label for="Masculino">Masculino</label>
+      <br />
+
+     <input id="Femenino" name="genero " type="radio">   
+     <label for="Femenino">Femenino</label>
+     <br>
+
+     <input id="Otro" name="genero" type="radio">   
+     <label for="Otro">Otro</label>
+     
+
+     <h2>Preferencias</h2>
+     <input id="Musica" type="checkbox">
+     <label for="Musica">Musica</label>
+     <br />
+
+     <input id="Deportes" type="checkbox">
+     <label for="Deportes">Deportes</label>
+     <br>
+
+     <input id="Lectura" type="checkbox">
+     <label for="Lectura">Lectura</label>
+     
+
+     <h2>Comentarios</h2>
+     <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+     <br />
+     <button>Enviar</button>
+
+
+    </form>
+</body>
+
+</html>
