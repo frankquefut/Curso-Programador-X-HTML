@@ -1,0 +1,2 @@
+monitorEvents(document);
+unmonitorEvents(document);
