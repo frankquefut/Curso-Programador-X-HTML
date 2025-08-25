@@ -13,3 +13,4 @@ Promise.all([promesa1, promesa2])
     .then(resultado2 => {
         console.log(resultado2.toUpperCase());
     });
+    
