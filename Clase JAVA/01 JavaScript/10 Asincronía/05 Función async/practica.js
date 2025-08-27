@@ -10,6 +10,14 @@ async function asincrona() {
    console.log(resultado.toUpperCase()); 
 }
 
+
+/*
+(async function asincrona() {
+   let resultado = await promesa;
+   console.log(resultado.toUpperCase()); 
+})();
+*/
+
 asincrona();
 /* El unico requisito para usar await esque este codigo
 debe de estar dentro de una funcion y tenemos que
@@ -33,4 +41,27 @@ PRO TIP 👉 No utilices async sin el acompañamiento
  async/await dentro de un bloque try/catch.
 
  
+
+RETO ℹ
+Observa la siguiente imagen. En el lado izquierdo 
+se encuentra la ilustración web del ejercicio y del 
+lado derecho una ilustración de la promesa para 
+mostrarte lo que esta sucediendo antes del 
+ejercicio que realizarás a continuación.
+
+Crea la función 'recibirCelulares' utilizando 
+async/await, esta debe guardar en la constante 
+'celulares' lo retornado de la función 'obtenerDatos' 
+de la imagen e imprimir su contenido en la consola. 
+Una vez realizada la función ejecútala en la 
+siguiente línea.
+
+
+async function recibirCelulares() {
+    const celulares = await obtenerDatos();
+    console.log(celulares);
+}
+
+recibirCelulares();
+
 */
